@@ -1,0 +1,16 @@
+{
+  "name": "pi-theme-blck",
+  "version": "1.0.0",
+  "description": "A grayscale Pi theme with a custom prompt bar.",
+  "keywords": ["pi-package"],
+  "files": ["prompt-bar.ts", "theme.json"],
+  "pi": {
+    "extensions": ["./prompt-bar.ts"],
+    "themes": ["./theme.json"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
