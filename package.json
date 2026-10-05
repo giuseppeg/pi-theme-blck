@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A grayscale Pi theme with a custom prompt bar.",
   "keywords": ["pi-package"],
-  "files": ["prompt-bar.ts", "theme.json"],
+  "files": ["src/prompt-bar.ts", "src/theme.json", "pi-theme-blck.jpg"],
   "pi": {
-    "extensions": ["./prompt-bar.ts"],
-    "themes": ["./theme.json"]
+    "extensions": ["./src/prompt-bar.ts"],
+    "themes": ["./src/theme.json"]
   },
   "peerDependencies": {
     "@earendil-works/pi-ai": "*",

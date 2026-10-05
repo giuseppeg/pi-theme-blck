@@ -2,6 +2,8 @@
 
 A minimalist grayscale color scheme and custom prompt bar for Pi.
 
+![Screenshot of the pi-theme-blck theme](pi-theme-blck.jpg)
+
 ## Install
 
 ```bash
